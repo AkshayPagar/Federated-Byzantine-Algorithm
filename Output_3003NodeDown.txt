@@ -1,0 +1,974 @@
+**********************Server 1 #port:3000****************************************
+python3 fba_server.py 3000
+
+Server with port number 3000 is up and running!
+
+Ballot state changing from 'none' to 'init'
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3005)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"foo":"10"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"foo":"10"}  is committed to database  assignment3_3000.db !
+
+Database Status:
+********************
+foo 10
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3005)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"bar":"30"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"bar":"30"}  is committed to database  assignment3_3000.db !
+
+Database Status:
+********************
+foo 10
+bar 30
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3005)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"foo":"20"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"foo":"20"}  is committed to database  assignment3_3000.db !
+
+Database Status:
+********************
+foo 30
+bar 30
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3005)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"bar":"20"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"bar":"20"}  is committed to database  assignment3_3000.db !
+
+Database Status:
+********************
+foo 30
+bar 50
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3005)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"foo":"30"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"foo":"30"}  is committed to database  assignment3_3000.db !
+
+Database Status:
+********************
+foo 60
+bar 50
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3005)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"bar":"10"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"bar":"10"}  is committed to database  assignment3_3000.db !
+
+Database Status:
+********************
+foo 60
+bar 60
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+**********************Server 2 #port:3001****************************************
+
+python3 fba_server.py 3001
+
+Server with port number 3001 is up and running!
+
+Ballot state changing from 'none' to 'init'
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"foo":"10"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"foo":"10"}  is committed to database  assignment3_3001.db !
+
+Database Status:
+********************
+foo 10
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"bar":"30"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"bar":"30"}  is committed to database  assignment3_3001.db !
+
+Database Status:
+********************
+foo 10
+bar 30
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"foo":"20"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"foo":"20"}  is committed to database  assignment3_3001.db !
+
+Database Status:
+********************
+foo 30
+bar 30
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"bar":"20"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"bar":"20"}  is committed to database  assignment3_3001.db !
+
+Database Status:
+********************
+foo 30
+bar 50
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"foo":"30"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"foo":"30"}  is committed to database  assignment3_3001.db !
+
+Database Status:
+********************
+foo 60
+bar 50
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"bar":"10"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"bar":"10"}  is committed to database  assignment3_3001.db !
+
+Database Status:
+********************
+foo 60
+bar 60
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+**********************Server 3 #port:3002****************************************
+
+python3 fba_server.py 3002
+
+Server with port number 3002 is up and running!
+
+Ballot state changing from 'none' to 'init'
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"foo":"10"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"foo":"10"}  is committed to database  assignment3_3002.db !
+
+Database Status:
+********************
+foo 10
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"bar":"30"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"bar":"30"}  is committed to database  assignment3_3002.db !
+
+Database Status:
+********************
+foo 10
+bar 30
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"foo":"20"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"foo":"20"}  is committed to database  assignment3_3002.db !
+
+Database Status:
+********************
+foo 30
+bar 30
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"bar":"20"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"bar":"20"}  is committed to database  assignment3_3002.db !
+
+Database Status:
+********************
+foo 30
+bar 50
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"foo":"30"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"foo":"30"}  is committed to database  assignment3_3002.db !
+
+Database Status:
+********************
+foo 60
+bar 50
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"bar":"10"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"bar":"10"}  is committed to database  assignment3_3002.db !
+
+Database Status:
+********************
+foo 60
+bar 60
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+**********************Server 4 #port:3003****************************************
+
+python3 fba_server.py 3003
+
+Server with port number 3003 is up and running!
+
+Ballot state changing from 'none' to 'init'
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"foo":"10"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"foo":"10"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"foo":"10"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"foo":"10"}  is committed to database  assignment3_3003.db !
+
+Database Status:
+********************
+foo 10
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"bar":"30"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"bar":"30"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"bar":"30"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"bar":"30"}  is committed to database  assignment3_3003.db !
+
+Database Status:
+********************
+foo 10
+bar 30
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"foo":"20"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"foo":"20"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"foo":"20"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"foo":"20"}  is committed to database  assignment3_3003.db !
+
+Database Status:
+********************
+foo 30
+bar 30
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"bar":"20"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"bar":"20"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"bar":"20"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"bar":"20"}  is committed to database  assignment3_3003.db !
+
+Database Status:
+********************
+foo 30
+bar 50
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"foo":"30"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"foo":"30"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"foo":"30"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"foo":"30"}  is committed to database  assignment3_3003.db !
+
+Database Status:
+********************
+foo 60
+bar 50
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3000)
+
+Ballot state changing from 'init' to 'vote'
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 1}=>Nodes are voting 
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3001)
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 2}=>Nodes are voting 
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3003)
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 3}=>Nodes are voting 
+
+Datagram b'{"bar":"10"}' received from ('10.0.0.110', 3002)
+
+Ballot State:{'Value': '{"bar":"10"}', 'Counter': 4}=> Voting Done! Changing state to Accept!
+
+Ballot state changing from 'vote' to 'accept'
+{'Value': '{"bar":"10"}', 'Counter': 4}
+
+Threshold of 3/4 has been reached! Changing state to confirm!
+
+Ballot state changing from 'accept' to 'confirm'
+
+Data is ready to be written to database...
+{"bar":"10"}  is committed to database  assignment3_3003.db !
+
+Database Status:
+********************
+foo 60
+bar 60
+
+********************
+
+Resetting Ballot to 'init' state!
+
+Ballot state changing from 'confirm' to 'init'
+
+**********************Client Output***********************************************
+python3 fba_client.py 3000
+Data Data{"foo":"10"}is accepted and written to database! received from ('10.0.0.110', 3000)
+Data Data{"bar":"30"}is accepted and written to database! received from ('10.0.0.110', 3000)
+Data Data{"foo":"20"}is accepted and written to database! received from ('10.0.0.110', 3000)
+Data Data{"bar":"20"}is accepted and written to database! received from ('10.0.0.110', 3000)
+Data Data{"foo":"30"}is accepted and written to database! received from ('10.0.0.110', 3000)
+Data Data{"bar":"10"}is accepted and written to database! received from ('10.0.0.110', 3000)
+
+
+
